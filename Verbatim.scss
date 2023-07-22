@@ -402,7 +402,8 @@
                                         > div:first-child {
                                             > h2 {
                                                 display: flex;
-                                                flex-direction: row;
+                                                flex-direction: row-reverse;
+                                                justify-content: flex-end;
                                                 align-items: center;
                                                 margin: unset;
                                                 * div {
@@ -1992,6 +1993,11 @@
             height: 100%;
             width: 100%;
             background: radial-gradient(circle farthest-side at 0% 100%, rgb(28, 28, 28) 0%, rgba(28, 28, 28, 0) 100%), radial-gradient(circle farthest-side at 100% 100%, rgb(38, 38, 38) 0%, rgba(38, 38, 38, 0) 100%), radial-gradient(circle farthest-side at 100% 0%, rgb(32, 32, 32) 0%, rgba(32, 32, 32, 0) 100%), radial-gradient(circle farthest-side at 0% 0%, rgb(51, 51, 51) 0%, rgba(51, 51, 51, 0) 100%), black;
+        }
+    }
+    div.image-container.col-4.col-sm-6.col-md-4.col-lg-4.col-xl-2.col-xxl-2.d-none.d-sm-block.mt-2 {
+        img.img-placeholder.lazyloaded {
+            border-radius: 6px
         }
     }
 }
