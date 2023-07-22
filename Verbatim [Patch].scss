@@ -1,0 +1,8 @@
+@-moz-document domain("INSERT YOUR DOMAIN HERE") {
+    .badge {
+        --bs-badge-padding-x: 1em;
+    }
+    app-external-rating div.row div:last-child {
+        display: none;
+    }
+}
